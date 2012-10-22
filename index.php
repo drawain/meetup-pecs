@@ -31,7 +31,6 @@
                 <p><a class="btn btn-primary btn-large">Tovább az igényfelmérő űrlapra &raquo;</a></p>
             </div>
 
-            <!-- Example row of columns -->
             <div class="row-fluid">
                 <div class="span4">
                     <h2>Heading</h2>
