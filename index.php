@@ -6,11 +6,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Igényfelmérés a pécsi Tech Meetupra!</title>
         <meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="less/bootstrap.css">
+        <link rel="stylesheet" href="less/responsive.css">
 
         <script src="js/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
@@ -19,35 +20,49 @@
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
 
-        <div class="container">
-
-            <div class="hero-unit">
-                <h1>Technology Meetup Pécs</h1>
-                <p>
-					Itt az idő, hogy végre Pécsen is új erőre kapjon a fejlesztői színtér, mert bár városunk bővelkedik a programozókban, designerekben és egyéb szakmabeliekben, még sincs egy hely vagy esemény,
-					ahol összegyűlhetnének, tapasztalatot és motivációt cserélhetnének a technológia, design vagy éppen a programozás módszertan iránt érdeklődők. Ez az oldal azon célból jött létre, hogy felmérjük van e
-					igény egy havonta megrendezésre kerülő meetupra illetve, hogy a leendő résztvevőket mely témák érdekelnék.
+		<header class="main">
+			<div class="container">
+				<h1>Pécs Tech Meetup</h1>
+				<p>
+					Itt az idő, hogy végre Pécsen is új erőre kapjon a fejlesztői színtér, mert bár városunk bővelkedik a szakmabeliekben, még sincs olyan hely vagy esemény, ahol összegyűlhetnének, tapasztalatot cserélhetnének a technológia, a programozás vagy éppen a design iránt érdeklődők. Ez az oldal azon célból jött létre, hogy felmérjük van-e igény egy havonta megrendezésre kerülő Meetupra illetve, hogy a leendő résztvevőket mely témák érdekelnék.
 				</p>
-                <p><a class="btn btn-primary btn-large">Tovább az igényfelmérő űrlapra &raquo;</a></p>
-            </div>
+				<p><a class="btn btn-primary btn-large">Tovább az igényfelméréshez &raquo;</a></p>
+			</div>
+		</header>
+
+        <div class="container center_content">
 
             <div class="row-fluid">
                 <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
+					<aside><span class="iconic share"></span></aside>
+                    <h2>Kiknek?</h2>
+                    <p>Elsősorban a szakmabeliek jelentkezését várjuk, de nyugodtan csatlakozz egyetemistaként, vagy ha csupán érdeklődsz a téma iránt.</p>
+                    <p><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
+					<p class="hide">Bár ez egyelőre csak felmérés, azt már előre leszögezhetjük, hogy a Meetup célközönsége nem csak a gyakorló fejlesztők és designerek. Nyugodtan jelentkezz egyetemistaként vagy, ha csupán a téma iránt érdeklődsz. Ne aggódj, nem fogunk kínos helyzetbe hozni, ha nincs tapasztalatod – egy olyan közösséget szeretnénk létrehozni, ahol bárki nyugodtan kérdezhet anélkül, hogy attól félne, a válasz mások számára egyértelmű. Mindig tanulhatunk a másiktól!</p>
                 </div>
                 <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
+                    <aside><span class="iconic lightbulb"></span></aside>
+					<h2>Miért?</h2>
+                    <p>Hogy más programozók, designerek és IT szakemberek véleményét, ötleteit, módszereit halljad és, hogy te is tovább add tapasztalataidat!</p>
+                    <p><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
+					<p class="hide">Célunk egy – helyi szakemberekből és érdeklődőkből álló – szakmai közösség létrehozása, illetve egy havonta megrendezett esemény megszervezése, ahol e közösség tagjai találkozhatnak, megvitathatják fejlesztői problémáikat, az azokra talált megoldásokat, bemutathatják egymásnak saját projektjeiket, érdekességeket oszthatnak meg. Ha valaki hosszú távon az IT területén szeretne dolgozni, akkor megkerülhetetlen a folyamatos fejlődés, tanulás – erre nem is lehetne jobb lehetőség a hasonló gondolkodásúakkal való szakmai találkozásnál!</p>
                </div>
                 <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
+					<aside><span class="iconic cog"></span></aside>
+                    <h2>Hogyan?</h2>
+                    <p>Ha te is úgy gondolod, hogy az önképzés hosszú távon elengedhetetlen a szakmádban, töltsd ki a lenti űrlapot, ezzel jelezve részvételi szándékod!</p>
+                    <p><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
+					<p class="hide">Ha 25-30 komolyabb jelentkező összegyűlik, akkor úgy tekintjük, hogy szükség van egy hasonló technikai fórumra és folytatjuk a szervezést, illetve kijelöljük az esemény fontosabb témaköreit (pl. design, web, frontend vagy pl. backend programozás).</p>
+					<p class="hide">A Meetupok szokásos menetrendjét követve egy meghatározott időpontban (valószínűleg hétköznap a késő délutáni órákban) három-négy egymást követő 20-30 perces előadást tartanánk. Előadónak bárki jelentkezhet, csupán olyan témát kell választania, ami belefér a Meetup választott témaköreibe. Az előadásokat követően egy közeli és szimpatikus vendéglátóipari egységbe, közös sörözésre invitáljuk a résztvevőket!</p>
                 </div>
             </div>
+
+			<?/*
+				Mit vársz a ettöl a csoporttól?
+				Melyik táborba és milyen szinten sorolnád magad? (PHP, JS, Java, stb.)
+				Melyik nap esti idöszaka az optimális számodra? (H-K-Sz-Cs-V)
+				Ajánl egy témát, ami a legjobban érdekelne Téged!
+			*/?>
 
             <hr>
 
@@ -61,6 +76,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 
         <script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
