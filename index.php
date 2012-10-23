@@ -26,13 +26,13 @@
 				<p>
 					Itt az idő, hogy végre Pécsen is új erőre kapjon a fejlesztői színtér, mert bár városunk bővelkedik a szakmabeliekben, még sincs olyan hely vagy esemény, ahol összegyűlhetnének, tapasztalatot cserélhetnének a technológia, a programozás vagy éppen a design iránt érdeklődők. Ez az oldal azon célból jött létre, hogy felmérjük van-e igény egy havonta megrendezésre kerülő Meetupra illetve, hogy a leendő résztvevőket mely témák érdekelnék.
 				</p>
-				<p><a class="btn btn-primary btn-large">Tovább az igényfelméréshez &raquo;</a></p>
+				<p><a href="#application_form" class="btn btn-primary btn-large">Tovább az igényfelméréshez &raquo;</a></p>
 			</div>
 		</header>
 
         <div class="container center_content">
 
-            <div class="row-fluid">
+            <div class="row-fluid centered_row">
                 <div class="span4">
 					<aside><span class="iconic share"></span></aside>
                     <h2>Kiknek?</h2>
@@ -56,6 +56,89 @@
 					<p class="hide">A Meetupok szokásos menetrendjét követve egy meghatározott időpontban (valószínűleg hétköznap a késő délutáni órákban) három-négy egymást követő 20-30 perces előadást tartanánk. Előadónak bárki jelentkezhet, csupán olyan témát kell választania, ami belefér a Meetup választott témaköreibe. Az előadásokat követően egy közeli és szimpatikus vendéglátóipari egységbe, közös sörözésre invitáljuk a résztvevőket!</p>
                 </div>
             </div>
+
+			<hr>
+
+            <div class="row-fluid centered_row">
+                <div class="span8">
+                    <h2>Segíts</h2>
+                    <p>Szívesen látjuk azok jelentkezését, akik előadást tartanának vagy segítenének a Meetup megszervezésében bármilyen módon, pl. technikai eszközök biztosításával vagy helyszín felajánlással. Cégek jelentkezését sem zárjuk ki, ha a segítség nem reklámozás céljából történik. Bármilyen hozzájárulást az <a href="mailto:andras.fincza@weblapbolt.hu">andras.fincza@weblapbolt.hu</a> címen várjuk.</p>
+                </div>
+                <div class="span4">
+					<h2>Szervezés</h2>
+                    <p>Mivel az eseményt egyelőre csak alapozzuk, így a szervezőket pillanatnyilag <strong>Fincza András</strong> képviseli.</p>
+                    <p><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
+					<p class="hide">András a <a href="http://weblapbolt.hu" target="_blank">Weblapbolt</a> vezető fejlesztője, immáron kilenc éve elkötelezett híve a webes technológiáknak. Munkája során elsősorban PHP és JavaScript nyelveken írt egyedi tartalomkezelő rendszerek és webalkalmazások fejlesztésében vesz részt, szabadidejében pedig mobil alkalmazások programozásával foglalatoskodik.</p>
+               </div>
+            </div>
+
+			<hr>
+
+			<div class="row-fluid" id="application_form">
+				<div class="span12">
+					<h2>Töltds ki az alábbi űrlapot, ha támogatod a Meetup ötletét!</h2>
+				</div>
+				<form>
+					<div class="span6">
+						<legend>Személyes adatok<sup>Csak arra használjuk fel, hogy értesítsünk téged, harmadik félnek nem adjuk át!</sup></legend>
+						<label>Hogyan szólíthatunk? <span class="asterisk">*</span></label>
+						<input class="input-xlarge" type="text" placeholder="Pl. Kis Elemér, archon, stb.">
+
+						<label>Értesítési e-mail cím <span class="asterisk">*</span></label>
+						<input class="input-xlarge" type="text" placeholder="Pl. kis.elemer@appsoft.com">
+
+						<label>Twitter</label>
+						<div class="input-prepend">
+						  <span class="add-on">@</span><input class="input-large" type="text" placeholder="Twitter azonosító">
+						</div>
+					</div>
+					<div class="span6">
+						<legend>Magadról<sup>Ha van kedved töltsd ki ezt a pár mezőt, ezzel is segítve, hogy milyen témájú Meetupot is szervezzünk!</sup></legend>
+						<label>Munkád vagy tanulmányaid során mivel foglalkozol?</label>
+						<textarea class="input-xxlarge" placeholder="Pl. Webfejlesztő vagyok, elsősorban a PHP és a JavaScript táborba sorolnám magamat, három éve foglalkozom napi szinten ezekkel a nyelvekkel."></textarea>
+
+						<label>Milyen időpont lenne neked megfelelő a Meetupra?</label>
+						<input class="input-xxlarge" type="text" placeholder="Pl. Hétköznap délután 6-8 között">
+					</div>
+
+					<div class="span12">
+						<legend class="inform_legend">Válaszd ki a téged leginkább érdeklő témákat! <span class="asterisk">*</span></legend>
+
+						<div class="controls controls-row">
+							<label class="checkbox span3"><input type="checkbox">Webfejlesztés</label>
+							<label class="checkbox span3"><input type="checkbox">Frontend programozás</label>
+							<label class="checkbox span3"><input type="checkbox">Backend programozás</label>
+							<label class="checkbox span3"><input type="checkbox">JavaScript</label>
+							<label class="checkbox span3"><input type="checkbox">PHP</label>
+							<label class="checkbox span3"><input type="checkbox">Java</label>
+							<label class="checkbox span3"><input type="checkbox">C#</label>
+							<label class="checkbox span3"><input type="checkbox">Webdesign</label>
+							<label class="checkbox span3"><input type="checkbox">UX</label>
+							<label class="checkbox span3"><input type="checkbox">Usability</label>
+							<label class="checkbox span3"><input type="checkbox">Mobil alkalmazások</label>
+							<label class="checkbox span3"><input type="checkbox">Mobil webalkalmazások</label>
+							<label class="checkbox span3"><input type="checkbox">Programozás módszertan</label>
+							<label class="checkbox span3"><input type="checkbox">Platformfüggetlen fejlesztés</label>
+							<label class="checkbox span3"><input type="checkbox"></label>
+							<label class="checkbox span3"><input type="checkbox"></label>
+							<label class="checkbox span3"><input type="checkbox"></label>
+							<label class="checkbox span3"><input type="checkbox"></label>
+							<label class="checkbox span3"><input type="checkbox"></label>
+							<label class="checkbox span3"><input type="checkbox"></label>
+							<label class="checkbox span3"><input type="checkbox"></label>
+							<label class="checkbox span3"><input type="checkbox"></label>
+							<label class="checkbox span3"><input type="checkbox"></label>
+							<label class="checkbox span3"><input type="checkbox"></label>
+						</div>
+
+
+					</div>
+
+					<div class="span12 submitbar">
+						<button type="submit" class="btn btn-primary"">Elküld</button>
+					</div>
+				</form>
+			</div>
 
 			<?/*
 				Mit vársz a ettöl a csoporttól?
