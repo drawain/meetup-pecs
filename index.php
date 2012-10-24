@@ -102,34 +102,48 @@
 					</div>
 
 					<div class="span12">
-						<legend class="inform_legend">Válaszd ki a téged leginkább érdeklő témákat! <span class="asterisk">*</span></legend>
+						<legend class="inform_legend">
+							Válaszd ki a téged leginkább érdeklő témákat! <span class="asterisk">*</span>
+							<sup>A Meetup témaköreit a legnépszerűbb címszavak köré fogjuk szervezni, ennek okán kérjük maximum 10 témát jelölj meg.</sup>
+						</legend>
 
 						<div class="controls controls-row">
 							<label class="checkbox span3"><input type="checkbox">Webfejlesztés</label>
 							<label class="checkbox span3"><input type="checkbox">Frontend programozás</label>
 							<label class="checkbox span3"><input type="checkbox">Backend programozás</label>
 							<label class="checkbox span3"><input type="checkbox">JavaScript</label>
+							<label class="checkbox span3"><input type="checkbox">JS dialektusok (pl. CoffeeScript, Dart)</label>
 							<label class="checkbox span3"><input type="checkbox">PHP</label>
 							<label class="checkbox span3"><input type="checkbox">Java</label>
 							<label class="checkbox span3"><input type="checkbox">C#</label>
+							<label class="checkbox span3"><input type="checkbox">Python</label>
 							<label class="checkbox span3"><input type="checkbox">Webdesign</label>
 							<label class="checkbox span3"><input type="checkbox">UX</label>
 							<label class="checkbox span3"><input type="checkbox">Usability</label>
-							<label class="checkbox span3"><input type="checkbox">Mobil alkalmazások</label>
-							<label class="checkbox span3"><input type="checkbox">Mobil webalkalmazások</label>
+							<label class="checkbox span3"><input type="checkbox">Mobil alkalmazások fejlesztése</label>
+							<label class="checkbox span3"><input type="checkbox">Mobil webalkalmazások fejlesztése</label>
+							<label class="checkbox span3"><input type="checkbox">Mobil alkalmazás design irányelvek</label>
 							<label class="checkbox span3"><input type="checkbox">Programozás módszertan</label>
 							<label class="checkbox span3"><input type="checkbox">Platformfüggetlen fejlesztés</label>
-							<label class="checkbox span3"><input type="checkbox"></label>
-							<label class="checkbox span3"><input type="checkbox"></label>
-							<label class="checkbox span3"><input type="checkbox"></label>
-							<label class="checkbox span3"><input type="checkbox"></label>
-							<label class="checkbox span3"><input type="checkbox"></label>
-							<label class="checkbox span3"><input type="checkbox"></label>
-							<label class="checkbox span3"><input type="checkbox"></label>
-							<label class="checkbox span3"><input type="checkbox"></label>
-							<label class="checkbox span3"><input type="checkbox"></label>
-							<label class="checkbox span3"><input type="checkbox"></label>
+							<label class="checkbox span3"><input type="checkbox">Tesztvezérelt fejlesztés (pl. TDD, BDD)</label>
+							<label class="checkbox span3"><input type="checkbox">Felhasználói felület tesztelés</label>
+							<label class="checkbox span3"><input type="checkbox">SQL</label>
+							<label class="checkbox span3"><input type="checkbox">NoSQL adatbázisok</label>
+							<label class="checkbox span3"><input type="checkbox">REST</label>
+							<label class="checkbox span3"><input type="checkbox">Kliens-szerver architektúrák</label>
+							<label class="checkbox span3"><input type="checkbox">Játékfejlesztés</label>
+							<label class="checkbox span3"><input type="checkbox">PHP keretrendszerek (pl. Symfony, Yii)</label>
+							<label class="checkbox span3"><input type="checkbox">JavaScript keretrendszerek</label>
+							<label class="checkbox span3"><input type="checkbox">Java keretrendszerek</label>
+							<label class="checkbox span3"><input type="checkbox">Szerveroldali JavaScript</label>
+							<label class="checkbox span3"><input type="checkbox">Verziókezelő rendszerek</label>
+							<label class="checkbox span3"><input type="checkbox">Fejlesztői eszközök</label>
+							<label class="checkbox span3"><input type="checkbox">Anti-IE szeánsz</label>
+							<label class="checkbox span3"><input type="checkbox">Tartalomkezelő rendszerek</label>
 						</div>
+
+						<label>Milyen egyéb témát javasolnál?</label>
+						<input class="input-xxlarge" type="text" placeholder="Pl. Minden álmom egy Delphi meetup!">
 
 
 					</div>
@@ -139,13 +153,6 @@
 					</div>
 				</form>
 			</div>
-
-			<?/*
-				Mit vársz a ettöl a csoporttól?
-				Melyik táborba és milyen szinten sorolnád magad? (PHP, JS, Java, stb.)
-				Melyik nap esti idöszaka az optimális számodra? (H-K-Sz-Cs-V)
-				Ajánl egy témát, ami a legjobban érdekelne Téged!
-			*/?>
 
             <hr>
 
