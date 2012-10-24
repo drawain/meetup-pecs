@@ -38,22 +38,22 @@
                     <h2>Kiknek?</h2>
                     <p>Elsősorban a szakmabeliek jelentkezését várjuk, de nyugodtan csatlakozz egyetemistaként, vagy ha csupán érdeklődsz a téma iránt.</p>
                     <p><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
-					<p class="hide">Bár ez egyelőre csak felmérés, azt már előre leszögezhetjük, hogy a Meetup célközönsége nem csak a gyakorló fejlesztők és designerek. Nyugodtan jelentkezz egyetemistaként vagy, ha csupán a téma iránt érdeklődsz. Ne aggódj, nem fogunk kínos helyzetbe hozni, ha nincs tapasztalatod – egy olyan közösséget szeretnénk létrehozni, ahol bárki nyugodtan kérdezhet anélkül, hogy attól félne, a válasz mások számára egyértelmű. Mindig tanulhatunk a másiktól!</p>
+					<p class="hide smalltext">Bár ez egyelőre csak felmérés, azt már előre leszögezhetjük, hogy a Meetup célközönsége nem csak a gyakorló fejlesztők és designerek. Nyugodtan jelentkezz egyetemistaként vagy, ha csupán a téma iránt érdeklődsz. Ne aggódj, nem fogunk kínos helyzetbe hozni, ha nincs tapasztalatod – egy olyan közösséget szeretnénk létrehozni, ahol bárki nyugodtan kérdezhet anélkül, hogy attól félne, a válasz mások számára egyértelmű. Mindig tanulhatunk a másiktól!</p>
                 </div>
                 <div class="span4">
                     <aside><span class="iconic lightbulb"></span></aside>
 					<h2>Miért?</h2>
                     <p>Hogy más programozók, designerek és IT szakemberek véleményét, ötleteit, módszereit halljad és, hogy te is tovább add tapasztalataidat!</p>
                     <p><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
-					<p class="hide">Célunk egy – helyi szakemberekből és érdeklődőkből álló – szakmai közösség létrehozása, illetve egy havonta megrendezett esemény megszervezése, ahol e közösség tagjai találkozhatnak, megvitathatják fejlesztői problémáikat, az azokra talált megoldásokat, bemutathatják egymásnak saját projektjeiket, érdekességeket oszthatnak meg. Ha valaki hosszú távon az IT területén szeretne dolgozni, akkor megkerülhetetlen a folyamatos fejlődés, tanulás – erre nem is lehetne jobb lehetőség a hasonló gondolkodásúakkal való szakmai találkozásnál!</p>
+					<p class="hide smalltext">Célunk egy – helyi szakemberekből és érdeklődőkből álló – szakmai közösség létrehozása, illetve egy havonta megrendezett esemény megszervezése, ahol e közösség tagjai találkozhatnak, megvitathatják fejlesztői problémáikat, az azokra talált megoldásokat, bemutathatják egymásnak saját projektjeiket, érdekességeket oszthatnak meg. Ha valaki hosszú távon az IT területén szeretne dolgozni, akkor megkerülhetetlen a folyamatos fejlődés, tanulás – erre nem is lehetne jobb lehetőség a hasonló gondolkodásúakkal való szakmai találkozásnál!</p>
                </div>
                 <div class="span4">
 					<aside><span class="iconic cog"></span></aside>
                     <h2>Hogyan?</h2>
                     <p>Ha te is úgy gondolod, hogy az önképzés hosszú távon elengedhetetlen a szakmádban, töltsd ki a lenti űrlapot, ezzel jelezve részvételi szándékod!</p>
                     <p><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
-					<p class="hide">Ha 25-30 komolyabb jelentkező összegyűlik, akkor úgy tekintjük, hogy szükség van egy hasonló technikai fórumra és folytatjuk a szervezést, illetve kijelöljük az esemény fontosabb témaköreit (pl. design, web, frontend vagy pl. backend programozás).</p>
-					<p class="hide">A Meetupok szokásos menetrendjét követve egy meghatározott időpontban (valószínűleg hétköznap a késő délutáni órákban) három-négy egymást követő 20-30 perces előadást tartanánk. Előadónak bárki jelentkezhet, csupán olyan témát kell választania, ami belefér a Meetup választott témaköreibe. Az előadásokat követően egy közeli és szimpatikus vendéglátóipari egységbe, közös sörözésre invitáljuk a résztvevőket!</p>
+					<p class="hide smalltext">Ha 25-30 komolyabb jelentkező összegyűlik, akkor úgy tekintjük, hogy szükség van egy hasonló technikai fórumra és folytatjuk a szervezést, illetve kijelöljük az esemény fontosabb témaköreit (pl. design, web, frontend vagy pl. backend programozás).</p>
+					<p class="hide smalltext">A Meetupok szokásos menetrendjét követve egy meghatározott időpontban (valószínűleg hétköznap a késő délutáni órákban) három-négy egymást követő 20-30 perces előadást tartanánk. Előadónak bárki jelentkezhet, csupán olyan témát kell választania, ami belefér a Meetup választott témaköreibe. Az előadásokat követően egy közeli és szimpatikus vendéglátóipari egységbe, közös sörözésre invitáljuk a résztvevőket!</p>
                 </div>
             </div>
 
@@ -66,9 +66,14 @@
                 </div>
                 <div class="span4">
 					<h2>Szervezés</h2>
-                    <p>Mivel az eseményt egyelőre csak alapozzuk, így a szervezőket pillanatnyilag <strong>Fincza András</strong> képviseli.</p>
-                    <p><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
-					<p class="hide">András a <a href="http://weblapbolt.hu" target="_blank">Weblapbolt</a> vezető fejlesztője, immáron kilenc éve elkötelezett híve a webes technológiáknak. Munkája során elsősorban PHP és JavaScript nyelveken írt egyedi tartalomkezelő rendszerek és webalkalmazások fejlesztésében vesz részt, szabadidejében pedig mobil alkalmazások programozásával foglalatoskodik.</p>
+                    <p>Az esemény egyelőre a szervezés kezdeti szakaszában van, előkészítését <strong>Fincza András</strong> vállalta magára.</p>
+                    <p><a class="btn toggle_hide" href="#">Bővebben róla &raquo;</a></p>
+					<p class="hide author smalltext">
+						<img src="img/drawain_small.jpg" alt="Fincza András" />
+						<a href="https://twitter.com/andrewdrawain" target="_blank" class="tw"></a>
+						<a href="https://facebook.com/drawain" target="_blank" class="fb"></a>
+						András a <a href="http://weblapbolt.hu" target="_blank">Weblapbolt</a> vezető fejlesztője, immáron kilenc éve elkötelezett híve a webes technológiáknak. Munkája során elsősorban PHP és JavaScript nyelveken írt egyedi tartalomkezelő rendszerek és webalkalmazások fejlesztésében vesz részt - amikor pedig teheti mobil alkalmazások programozásával foglalkozik.
+					</p>
                </div>
             </div>
 
@@ -111,45 +116,55 @@
 							<label class="checkbox span3"><input type="checkbox">Webfejlesztés</label>
 							<label class="checkbox span3"><input type="checkbox">Frontend programozás</label>
 							<label class="checkbox span3"><input type="checkbox">Backend programozás</label>
+							<label class="checkbox span3"><input type="checkbox">Játékfejlesztés</label>
 							<label class="checkbox span3"><input type="checkbox">JavaScript</label>
-							<label class="checkbox span3"><input type="checkbox">JS dialektusok (pl. CoffeeScript, Dart)</label>
+							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. CoffeeScript, Dart, TypeScript">JS dialektusok</abbr></label>
 							<label class="checkbox span3"><input type="checkbox">PHP</label>
 							<label class="checkbox span3"><input type="checkbox">Java</label>
-							<label class="checkbox span3"><input type="checkbox">C#</label>
+							<label class="checkbox span3"><input type="checkbox">.NET (ASP / C#)</label>
+							<label class="checkbox span3"><input type="checkbox">Ruby</label>
 							<label class="checkbox span3"><input type="checkbox">Python</label>
+							<label class="checkbox span3"><input type="checkbox">GWT</label>
 							<label class="checkbox span3"><input type="checkbox">Webdesign</label>
 							<label class="checkbox span3"><input type="checkbox">UX</label>
 							<label class="checkbox span3"><input type="checkbox">Usability</label>
+							<label class="checkbox span3"><input type="checkbox">Platformfüggetlen fejlesztés</label>
 							<label class="checkbox span3"><input type="checkbox">Mobil alkalmazások fejlesztése</label>
 							<label class="checkbox span3"><input type="checkbox">Mobil webalkalmazások fejlesztése</label>
 							<label class="checkbox span3"><input type="checkbox">Mobil alkalmazás design irányelvek</label>
-							<label class="checkbox span3"><input type="checkbox">Programozás módszertan</label>
-							<label class="checkbox span3"><input type="checkbox">Platformfüggetlen fejlesztés</label>
-							<label class="checkbox span3"><input type="checkbox">Tesztvezérelt fejlesztés (pl. TDD, BDD)</label>
+							<label class="checkbox span3"><input type="checkbox">REST</label>
+							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. TDD, BDD">Tesztvezérelt fejlesztés</label>
 							<label class="checkbox span3"><input type="checkbox">Felhasználói felület tesztelés</label>
 							<label class="checkbox span3"><input type="checkbox">SQL</label>
-							<label class="checkbox span3"><input type="checkbox">NoSQL adatbázisok</label>
-							<label class="checkbox span3"><input type="checkbox">REST</label>
-							<label class="checkbox span3"><input type="checkbox">Kliens-szerver architektúrák</label>
-							<label class="checkbox span3"><input type="checkbox">Játékfejlesztés</label>
-							<label class="checkbox span3"><input type="checkbox">PHP keretrendszerek (pl. Symfony, Yii)</label>
-							<label class="checkbox span3"><input type="checkbox">JavaScript keretrendszerek</label>
+							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. MongoDB, CouchBase, Jackrabbit">NoSQL adatbázisok</abbr></label>
+							<label class="checkbox span3"><input type="checkbox"><abbr title="pl. Symfony, Yii, Kohana, CakePHP">PHP keretrendszerek</abbr></label>
+							<label class="checkbox span3"><input type="checkbox"><abbr title="pl. jQuery, Ext JS, Backbone, Kendo, three.js">JavaScript keretrendszerek</abbr></label>
 							<label class="checkbox span3"><input type="checkbox">Java keretrendszerek</label>
-							<label class="checkbox span3"><input type="checkbox">Szerveroldali JavaScript</label>
-							<label class="checkbox span3"><input type="checkbox">Verziókezelő rendszerek</label>
-							<label class="checkbox span3"><input type="checkbox">Fejlesztői eszközök</label>
-							<label class="checkbox span3"><input type="checkbox">Anti-IE szeánsz</label>
-							<label class="checkbox span3"><input type="checkbox">Tartalomkezelő rendszerek</label>
+							<label class="checkbox span3"><input type="checkbox">Szerveroldali JavaScript (Node.js)</label>
+							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. Git, SVN, Mercurial, Bazaar">Verziókezelő rendszerek</abbr></label>
+							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. Eclipse, Netbeans, JetBrains szoftvercsalád">Fejlesztői eszközök</abbr></label>
+							<label class="checkbox span3"><input type="checkbox">Szemantikus web</label>
+							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. Drupal, Wordpress, Joomla, Liferay">Tartalomkezelő rendszerek</abbr></label>
 						</div>
 
 						<label>Milyen egyéb témát javasolnál?</label>
 						<input class="input-xxlarge" type="text" placeholder="Pl. Minden álmom egy Delphi meetup!">
 
+						<legend class="inform_legend">Egyebek</legend>
+						<label>Hozzájárulnál anyagilag egy ilyen szakmai fórumhoz szervezéséhez (hely és technika bérlése, videófelvétel készítése)?</label>
+						<select class="input-xxlarge">
+							<option>Csak akkor jönnék el, ha nem kell fizetni</option>
+							<option>500 Ft-ot nélkülözhetnék havonta</option>
+						</select>
+
+						<label>Írd ide, ha egyéb megjegyezni valód van a számunkra!</label>
+						<textarea class="input-xxlarge"></textarea>
+
 
 					</div>
 
 					<div class="span12 submitbar">
-						<button type="submit" class="btn btn-primary"">Elküld</button>
+						<button type="submit" class="btn btn-primary">Elküld</button>
 					</div>
 				</form>
 			</div>

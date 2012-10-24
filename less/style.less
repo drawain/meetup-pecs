@@ -307,6 +307,11 @@ header.main {
 			font-size: 120px;
 			line-height: 120px;
 		}
+
+		.smalltext {
+			font-size: 13px;
+			line-height: 20px;
+		}
 	}
 
 	sup {
@@ -316,7 +321,7 @@ header.main {
 	}
 
 	textarea {
-		height: 87px;
+		height: 92px;
 	}
 
 	.span12 {
@@ -332,6 +337,8 @@ header.main {
 	}
 
 	legend {
+		margin-bottom: 10px;
+
 		.asterisk {
 			top: -8px;
 		}
@@ -347,5 +354,46 @@ header.main {
 
 	.controls {
 		.span3 { margin-left: 0 !important; padding-top: 0 !important; }
+	}
+
+	label {
+		margin-top: 5px;
+	}
+
+	.author {
+		position: relative;
+		top: 0;
+		left: 0;
+		padding-left: 110px;
+
+		img {
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 5px;
+			border-radius: 3px;
+		}
+
+		.tw {
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 111px;
+			width: 47px;
+			height: 47px;
+			background: url(../img/twitter.png);
+			border-radius: 3px;
+		}
+
+		.fb {
+			display: block;
+			position: absolute;
+			left: 53px;
+			top: 111px;
+			width: 47px;
+			height: 47px;
+			background: url(../img/fb2.png);
+			border-radius: 3px;
+		}
 	}
 }

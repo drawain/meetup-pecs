@@ -5568,13 +5568,17 @@ header.main a:hover {
   font-size: 120px;
   line-height: 120px;
 }
+.center_content .centered_row .smalltext {
+  font-size: 13px;
+  line-height: 20px;
+}
 .center_content sup {
   display: block;
   font-size: 11px;
   line-height: 13px;
 }
 .center_content textarea {
-  height: 87px;
+  height: 92px;
 }
 .center_content .span12 {
   margin-left: 0 !important;
@@ -5584,6 +5588,9 @@ header.main a:hover {
   font-size: 10px;
   position: relative;
   top: -2px;
+}
+.center_content legend {
+  margin-bottom: 10px;
 }
 .center_content legend .asterisk {
   top: -8px;
@@ -5597,4 +5604,40 @@ header.main a:hover {
 .center_content .controls .span3 {
   margin-left: 0 !important;
   padding-top: 0 !important;
+}
+.center_content label {
+  margin-top: 5px;
+}
+.center_content .author {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-left: 110px;
+}
+.center_content .author img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  border-radius: 3px;
+}
+.center_content .author .tw {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 111px;
+  width: 47px;
+  height: 47px;
+  background: url(../img/twitter.png);
+  border-radius: 3px;
+}
+.center_content .author .fb {
+  display: block;
+  position: absolute;
+  left: 53px;
+  top: 111px;
+  width: 47px;
+  height: 47px;
+  background: url(../img/fb2.png);
+  border-radius: 3px;
 }
