@@ -236,11 +236,19 @@ h1, h2, h3, h4 {
 	font-family: @font1;
 }
 
-header.main {
+h1 {
+	/*text-shadow: 0 0 20px #000000, 2px 2px 0 #FFFFFF, 4px 4px 0 #F89406, 6px 6px 0 #000000;*/
+	text-shadow: 0 0 20px #000000;
+}
+
+header.main, footer.main {
 	background: #202020;
 	color: #fff;
 	width: 100%;
 	padding: 25px 0;
+}
+
+header.main {
 	.box-shadow(0 0 10px #000000 inset);
 
 	h1 {
@@ -278,10 +286,15 @@ header.main {
 	}
 }
 
-@media (max-width: 767px) {
-	header.main {
-		.container {
-			padding: 20px;
+footer.main {
+	.box-shadow(0 3px 1px #000000 inset);
+	padding: 10px 0 20px;
+
+	a, a:active, a:visited {
+		color: #fbb450;
+
+		&:hover {
+			color: #f89406;
 		}
 	}
 }
@@ -360,6 +373,16 @@ header.main {
 		margin-top: 5px;
 	}
 
+	select {
+		width: 544px;
+	}
+
+	.input-prepend {
+		input {
+			width: 243px;
+		}
+	}
+
 	.author {
 		position: relative;
 		top: 0;
@@ -394,6 +417,34 @@ header.main {
 			height: 47px;
 			background: url(../img/fb2.png);
 			border-radius: 3px;
+		}
+	}
+}
+
+
+@media (max-width: 767px) {
+	header.main, footer.main {
+		h1 {
+			font-size: 60px;
+			line-height: 60px;
+		}
+
+		.container {
+			padding: 20px;
+		}
+	}
+
+	.btn_container {
+		text-align: center;
+	}
+
+	.center_content {
+		.row-fluid {
+			margin-bottom: 30px;
+
+			.span4 {
+				margin-bottom: 50px;
+			}
 		}
 	}
 }

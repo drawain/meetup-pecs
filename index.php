@@ -24,7 +24,8 @@
 			<div class="container">
 				<h1>Pécs Tech Meetup</h1>
 				<p>
-					Itt az idő, hogy végre Pécsen is új erőre kapjon a fejlesztői színtér, mert bár városunk bővelkedik a szakmabeliekben, még sincs olyan hely vagy esemény, ahol összegyűlhetnének, tapasztalatot cserélhetnének a technológia, a programozás vagy éppen a design iránt érdeklődők. Ez az oldal azon célból jött létre, hogy felmérjük van-e igény egy havonta megrendezésre kerülő Meetupra illetve, hogy a leendő résztvevőket mely témák érdekelnék.
+					Itt az idő, hogy végre Pécsen is új erőre kapjon a fejlesztői színtér, mert bár városunk bővelkedik a szakmabeliekben, még sincs olyan hely vagy esemény, ahol összegyűlhetnének,
+					tapasztalatot cserélhetnének a technológia, a programozás vagy éppen a design iránt érdeklődők. Ez az oldal azon célból jött létre, hogy felmérjük van-e igény egy havonta megrendezésre kerülő Meetupra.
 				</p>
 				<p><a href="#application_form" class="btn btn-primary btn-large">Tovább az igényfelméréshez &raquo;</a></p>
 			</div>
@@ -36,24 +37,40 @@
                 <div class="span4">
 					<aside><span class="iconic share"></span></aside>
                     <h2>Kiknek?</h2>
-                    <p>Elsősorban a szakmabeliek jelentkezését várjuk, de nyugodtan csatlakozz egyetemistaként, vagy ha csupán érdeklődsz a téma iránt.</p>
-                    <p><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
-					<p class="hide smalltext">Bár ez egyelőre csak felmérés, azt már előre leszögezhetjük, hogy a Meetup célközönsége nem csak a gyakorló fejlesztők és designerek. Nyugodtan jelentkezz egyetemistaként vagy, ha csupán a téma iránt érdeklődsz. Ne aggódj, nem fogunk kínos helyzetbe hozni, ha nincs tapasztalatod – egy olyan közösséget szeretnénk létrehozni, ahol bárki nyugodtan kérdezhet anélkül, hogy attól félne, a válasz mások számára egyértelmű. Mindig tanulhatunk a másiktól!</p>
+                    <p>Elsősorban a szakmabeliek jelentkezését várjuk, de nyugodtan csatlakozz egyetemistaként, vagy ha csupán a téma iránt érdeklődsz.</p>
+                    <p class="btn_container"><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
+					<p class="hide smalltext">
+						Bár ez egyelőre csak felmérés, azt már előre leszögezhetjük, hogy a Meetup célközönsége nem csak a gyakorló fejlesztők és designerek.
+						Ne aggódj, nem fogunk kínos helyzetbe hozni, ha nincs tapasztalatod – egy olyan közösséget szeretnénk létrehozni, ahol bárki nyugodtan kérdezhet anélkül,
+						hogy attól félne, a válasz mások számára egyértelmű. Mindig tanulhatunk a másiktól!
+					</p>
                 </div>
                 <div class="span4">
                     <aside><span class="iconic lightbulb"></span></aside>
 					<h2>Miért?</h2>
                     <p>Hogy más programozók, designerek és IT szakemberek véleményét, ötleteit, módszereit halljad és, hogy te is tovább add tapasztalataidat!</p>
-                    <p><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
-					<p class="hide smalltext">Célunk egy – helyi szakemberekből és érdeklődőkből álló – szakmai közösség létrehozása, illetve egy havonta megrendezett esemény megszervezése, ahol e közösség tagjai találkozhatnak, megvitathatják fejlesztői problémáikat, az azokra talált megoldásokat, bemutathatják egymásnak saját projektjeiket, érdekességeket oszthatnak meg. Ha valaki hosszú távon az IT területén szeretne dolgozni, akkor megkerülhetetlen a folyamatos fejlődés, tanulás – erre nem is lehetne jobb lehetőség a hasonló gondolkodásúakkal való szakmai találkozásnál!</p>
+                    <p class="btn_container"><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
+					<p class="hide smalltext">
+						Célunk egy – helyi szakemberekből és érdeklődőkből álló – szakmai közösség létrehozása, illetve egy havonta megrendezett esemény megszervezése, ahol e közösség tagjai találkozhatnak,
+						megvitathatják fejlesztői problémáikat, az azokra talált megoldásokat, bemutathatják egymásnak saját projektjeiket, érdekességeket oszthatnak meg.
+						Ha valaki hosszú távon az IT területén szeretne dolgozni, akkor megkerülhetetlen a folyamatos fejlődés, a tanulás – erre nem is lehetne jobb lehetőség a hasonló gondolkodásúakkal
+						való szakmai találkozásnál!
+					</p>
                </div>
                 <div class="span4">
 					<aside><span class="iconic cog"></span></aside>
                     <h2>Hogyan?</h2>
                     <p>Ha te is úgy gondolod, hogy az önképzés hosszú távon elengedhetetlen a szakmádban, töltsd ki a lenti űrlapot, ezzel jelezve részvételi szándékod!</p>
-                    <p><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
-					<p class="hide smalltext">Ha 25-30 komolyabb jelentkező összegyűlik, akkor úgy tekintjük, hogy szükség van egy hasonló technikai fórumra és folytatjuk a szervezést, illetve kijelöljük az esemény fontosabb témaköreit (pl. design, web, frontend vagy pl. backend programozás).</p>
-					<p class="hide smalltext">A Meetupok szokásos menetrendjét követve egy meghatározott időpontban (valószínűleg hétköznap a késő délutáni órákban) három-négy egymást követő 20-30 perces előadást tartanánk. Előadónak bárki jelentkezhet, csupán olyan témát kell választania, ami belefér a Meetup választott témaköreibe. Az előadásokat követően egy közeli és szimpatikus vendéglátóipari egységbe, közös sörözésre invitáljuk a résztvevőket!</p>
+                    <p class="btn_container"><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
+					<p class="hide smalltext">
+						Amennyiben 25-30 komolyabb jelentkező összegyűlt, akkor úgy tekintjük, hogy szükség van egy hasonló technikai fórumra és folytatjuk a szervezést,
+						illetve kijelöljük az esemény fontosabb témaköreit (pl. design, web, frontend vagy backend programozás).
+					</p>
+					<p class="hide smalltext">
+						A Meetupok szokásos menetrendjét követve egy meghatározott időpontban (valószínűleg hétköznap a késő délutáni órákban) három-négy egymást követő, 20-30 perces előadást tartanánk.
+						Előadónak bárki jelentkezhet, csupán olyan témát kell választania, ami belefér a Meetup választott témaköreibe. Az előadásokat követően egy közeli és szimpatikus vendéglátóipari
+						egységbe, közös sörözésre invitáljuk a résztvevőket!
+					</p>
                 </div>
             </div>
 
@@ -62,17 +79,21 @@
             <div class="row-fluid centered_row">
                 <div class="span8">
                     <h2>Segíts</h2>
-                    <p>Szívesen látjuk azok jelentkezését, akik előadást tartanának vagy segítenének a Meetup megszervezésében bármilyen módon, pl. technikai eszközök biztosításával vagy helyszín felajánlással. Cégek jelentkezését sem zárjuk ki, ha a segítség nem reklámozás céljából történik. Bármilyen hozzájárulást az <a href="mailto:andras.fincza@weblapbolt.hu">andras.fincza@weblapbolt.hu</a> címen várjuk.</p>
+                    <p>
+						Szívesen látjuk azok jelentkezését, akik előadást tartanának vagy segítenének a Meetup megszervezésében bármilyen módon, pl. technikai eszközök biztosításával vagy helyszín felajánlással.
+						Cégek jelentkezését sem zárjuk ki, ha a segítség nem reklámozás céljából történik. Bármilyen hozzájárulást az <a href="mailto:andras.fincza@weblapbolt.hu">andras.fincza@weblapbolt.hu</a> címen várjuk.
+					</p>
                 </div>
                 <div class="span4">
 					<h2>Szervezés</h2>
                     <p>Az esemény egyelőre a szervezés kezdeti szakaszában van, előkészítését <strong>Fincza András</strong> vállalta magára.</p>
-                    <p><a class="btn toggle_hide" href="#">Bővebben róla &raquo;</a></p>
+                    <p class="btn_container"><a class="btn toggle_hide" href="#">Bővebben róla &raquo;</a></p>
 					<p class="hide author smalltext">
 						<img src="img/drawain_small.jpg" alt="Fincza András" />
 						<a href="https://twitter.com/andrewdrawain" target="_blank" class="tw"></a>
 						<a href="https://facebook.com/drawain" target="_blank" class="fb"></a>
-						András a <a href="http://weblapbolt.hu" target="_blank">Weblapbolt</a> vezető fejlesztője, immáron kilenc éve elkötelezett híve a webes technológiáknak. Munkája során elsősorban PHP és JavaScript nyelveken írt egyedi tartalomkezelő rendszerek és webalkalmazások fejlesztésében vesz részt - amikor pedig teheti mobil alkalmazások programozásával foglalkozik.
+						<strong>Drawain</strong> a <a href="http://weblapbolt.hu" target="_blank">Weblapbolt</a> vezető fejlesztője, immáron kilenc éve elkötelezett híve a webes technológiáknak. Munkája során elsősorban PHP és
+						JavaScript nyelveken írt egyedi tartalomkezelő rendszerek és webalkalmazások fejlesztésében vesz részt - amikor pedig teheti mobil alkalmazások programozásával foglalkozik.
 					</p>
                </div>
             </div>
@@ -87,7 +108,7 @@
 					<div class="span6">
 						<legend>Személyes adatok<sup>Csak arra használjuk fel, hogy értesítsünk téged, harmadik félnek nem adjuk át!</sup></legend>
 						<label>Hogyan szólíthatunk? <span class="asterisk">*</span></label>
-						<input class="input-xlarge" type="text" placeholder="Pl. Kis Elemér, archon, stb.">
+						<input class="input-xlarge" type="text" placeholder="Pl. Kis Elemér, kisee, stb.">
 
 						<label>Értesítési e-mail cím <span class="asterisk">*</span></label>
 						<input class="input-xlarge" type="text" placeholder="Pl. kis.elemer@appsoft.com">
@@ -129,7 +150,7 @@
 							<label class="checkbox span3"><input type="checkbox">UX</label>
 							<label class="checkbox span3"><input type="checkbox">Usability</label>
 							<label class="checkbox span3"><input type="checkbox">Platformfüggetlen fejlesztés</label>
-							<label class="checkbox span3"><input type="checkbox">Mobil alkalmazások fejlesztése</label>
+							<label class="checkbox span3"><input type="checkbox">Natív mobil alkalmazások fejlesztése</label>
 							<label class="checkbox span3"><input type="checkbox">Mobil webalkalmazások fejlesztése</label>
 							<label class="checkbox span3"><input type="checkbox">Mobil alkalmazás design irányelvek</label>
 							<label class="checkbox span3"><input type="checkbox">REST</label>
@@ -154,7 +175,8 @@
 						<label>Hozzájárulnál anyagilag egy ilyen szakmai fórumhoz szervezéséhez (hely és technika bérlése, videófelvétel készítése)?</label>
 						<select class="input-xxlarge">
 							<option>Csak akkor jönnék el, ha nem kell fizetni</option>
-							<option>500 Ft-ot nélkülözhetnék havonta</option>
+							<option>Talán 500 Ft-ot nélkülözhetnék havonta</option>
+							<option>Akár 1000 Ft-ot is megérne nekem</option>
 						</select>
 
 						<label>Írd ide, ha egyéb megjegyezni valód van a számunkra!</label>
@@ -171,11 +193,13 @@
 
             <hr>
 
-            <footer>
-                <p>&copy; 2012</p>
-            </footer>
-
         </div> <!-- /container -->
+
+		<footer class="main">
+			<div class="container">
+				<p>&copy; Drawain 2012 / Contact: <a href="mailto:andras.fincza@weblapbolt.hu">andras.fincza@weblapbolt.hu</a></p>
+			</div>
+		</footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>

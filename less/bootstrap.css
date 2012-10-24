@@ -5504,11 +5504,19 @@ h3,
 h4 {
   font-family: 'Novecentowide-Bold', Arial;
 }
-header.main {
+h1 {
+  /*text-shadow: 0 0 20px #000000, 2px 2px 0 #FFFFFF, 4px 4px 0 #F89406, 6px 6px 0 #000000;*/
+
+  text-shadow: 0 0 20px #000000;
+}
+header.main,
+footer.main {
   background: #202020;
   color: #fff;
   width: 100%;
   padding: 25px 0;
+}
+header.main {
   -webkit-box-shadow: 0 0 10px #000000 inset;
   -moz-box-shadow: 0 0 10px #000000 inset;
   box-shadow: 0 0 10px #000000 inset;
@@ -5546,10 +5554,21 @@ header.main a:hover {
   -o-transition: background-position 0.1s linear;
   transition: background-position 0.1s linear;
 }
-@media (max-width: 767px) {
-  header.main .container {
-    padding: 20px;
-  }
+footer.main {
+  -webkit-box-shadow: 0 3px 1px #000000 inset;
+  -moz-box-shadow: 0 3px 1px #000000 inset;
+  box-shadow: 0 3px 1px #000000 inset;
+  padding: 10px 0 20px;
+}
+footer.main a,
+footer.main a:active,
+footer.main a:visited {
+  color: #fbb450;
+}
+footer.main a:hover,
+footer.main a:active:hover,
+footer.main a:visited:hover {
+  color: #f89406;
 }
 .center_content {
   margin-top: 30px;
@@ -5608,6 +5627,12 @@ header.main a:hover {
 .center_content label {
   margin-top: 5px;
 }
+.center_content select {
+  width: 544px;
+}
+.center_content .input-prepend input {
+  width: 243px;
+}
 .center_content .author {
   position: relative;
   top: 0;
@@ -5640,4 +5665,24 @@ header.main a:hover {
   height: 47px;
   background: url(../img/fb2.png);
   border-radius: 3px;
+}
+@media (max-width: 767px) {
+  header.main h1,
+  footer.main h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  header.main .container,
+  footer.main .container {
+    padding: 20px;
+  }
+  .btn_container {
+    text-align: center;
+  }
+  .center_content .row-fluid {
+    margin-bottom: 30px;
+  }
+  .center_content .row-fluid .span4 {
+    margin-bottom: 50px;
+  }
 }
