@@ -49,9 +49,9 @@
 					</p>
                 </div>
                 <div class="span4">
-                    <aside><span class="iconic lightbulb"></span></aside>
+                    <aside><span class="iconic chat_alt_stroke"></span></aside>
 					<h2>Miért?</h2>
-                    <p>Hogy más programozók, designerek és IT szakemberek véleményét, ötleteit, módszereit halljad és, hogy te is tovább add tapasztalataidat!</p>
+                    <p>Hogy programozók, designerek és más IT szakemberek véleményét, ötleteit, módszereit halld és, hogy te is tovább add tapasztalataidat!</p>
                     <p class="btn_container"><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
 					<p class="hide smalltext">
 						Célunk egy – helyi szakemberekből és érdeklődőkből álló – szakmai közösség létrehozása, illetve egy havonta megrendezett esemény megszervezése, ahol e közösség tagjai találkozhatnak,
