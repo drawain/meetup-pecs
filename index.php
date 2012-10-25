@@ -103,27 +103,27 @@
 				<div class="span12">
 					<h2>Töltds ki az alábbi űrlapot, ha támogatod a Meetup ötletét!</h2>
 				</div>
-				<form>
+				<form method="post" action="index.php">
 					<div class="span6">
 						<legend>Személyes adatok<sup>Csak arra használjuk fel, hogy értesítsünk téged, harmadik félnek nem adjuk át!</sup></legend>
 						<label>Hogyan szólíthatunk? <span class="asterisk">*</span></label>
-						<input class="input-xlarge" type="text" placeholder="Pl. Kis Elemér, kisee, stb.">
+						<input class="input-xlarge" type="text" name="name" placeholder="Pl. Kis Elemér, kisee, stb.">
 
 						<label>Értesítési e-mail cím <span class="asterisk">*</span></label>
-						<input class="input-xlarge" type="text" placeholder="Pl. kis.elemer@appsoft.com">
+						<input class="input-xlarge" type="text" name="email" placeholder="Pl. kis.elemer@appsoft.com">
 
 						<label>Twitter</label>
 						<div class="input-prepend">
-						  <span class="add-on">@</span><input class="input-large" type="text" placeholder="Twitter azonosító">
+						  <span class="add-on">@</span><input class="input-large" name="twitter" type="text" placeholder="Twitter azonosító">
 						</div>
 					</div>
 					<div class="span6">
 						<legend>Magadról<sup>Ha van kedved töltsd ki ezt a pár mezőt, ezzel is segítve, hogy milyen témájú Meetupot is szervezzünk!</sup></legend>
 						<label>Munkád vagy tanulmányaid során mivel foglalkozol?</label>
-						<textarea class="input-xxlarge" placeholder="Pl. Webfejlesztő vagyok, elsősorban a PHP és a JavaScript táborba sorolnám magamat, három éve foglalkozom napi szinten ezekkel a nyelvekkel."></textarea>
+						<textarea class="input-xxlarge" name="about" placeholder="Pl. Webfejlesztő vagyok, elsősorban a PHP és a JavaScript táborba sorolnám magamat, három éve foglalkozom napi szinten ezekkel a nyelvekkel."></textarea>
 
 						<label>Milyen időpont lenne neked megfelelő a Meetupra?</label>
-						<input class="input-xxlarge" type="text" placeholder="Pl. Hétköznap délután 6-8 között">
+						<input class="input-xxlarge" type="text" name="time" placeholder="Pl. Hétköznap délután 6-8 között">
 					</div>
 
 					<div class="span12">
@@ -133,55 +133,53 @@
 						</legend>
 
 						<div class="controls controls-row">
-							<label class="checkbox span3"><input type="checkbox">Webfejlesztés</label>
-							<label class="checkbox span3"><input type="checkbox">Frontend programozás</label>
-							<label class="checkbox span3"><input type="checkbox">Backend programozás</label>
-							<label class="checkbox span3"><input type="checkbox">Játékfejlesztés</label>
-							<label class="checkbox span3"><input type="checkbox">JavaScript</label>
-							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. CoffeeScript, Dart, TypeScript">JS dialektusok</abbr></label>
-							<label class="checkbox span3"><input type="checkbox">PHP</label>
-							<label class="checkbox span3"><input type="checkbox">Java</label>
-							<label class="checkbox span3"><input type="checkbox">.NET (ASP / C#)</label>
-							<label class="checkbox span3"><input type="checkbox">Ruby</label>
-							<label class="checkbox span3"><input type="checkbox">Python</label>
-							<label class="checkbox span3"><input type="checkbox">GWT</label>
-							<label class="checkbox span3"><input type="checkbox">Webdesign</label>
-							<label class="checkbox span3"><input type="checkbox">UX</label>
-							<label class="checkbox span3"><input type="checkbox">Usability</label>
-							<label class="checkbox span3"><input type="checkbox">Platformfüggetlen fejlesztés</label>
-							<label class="checkbox span3"><input type="checkbox">Natív mobil alkalmazások fejlesztése</label>
-							<label class="checkbox span3"><input type="checkbox">Mobil webalkalmazások fejlesztése</label>
-							<label class="checkbox span3"><input type="checkbox">Mobil alkalmazás design irányelvek</label>
-							<label class="checkbox span3"><input type="checkbox">REST</label>
-							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. TDD, BDD">Tesztvezérelt fejlesztés</label>
-							<label class="checkbox span3"><input type="checkbox">Felhasználói felület tesztelés</label>
-							<label class="checkbox span3"><input type="checkbox">SQL</label>
-							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. MongoDB, CouchBase, Jackrabbit">NoSQL adatbázisok</abbr></label>
-							<label class="checkbox span3"><input type="checkbox"><abbr title="pl. Symfony, Yii, Kohana, CakePHP">PHP keretrendszerek</abbr></label>
-							<label class="checkbox span3"><input type="checkbox"><abbr title="pl. jQuery, Ext JS, Backbone, Kendo, three.js">JavaScript keretrendszerek</abbr></label>
-							<label class="checkbox span3"><input type="checkbox">Java keretrendszerek</label>
-							<label class="checkbox span3"><input type="checkbox">Szerveroldali JavaScript (Node.js)</label>
-							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. Git, SVN, Mercurial, Bazaar">Verziókezelő rendszerek</abbr></label>
-							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. Eclipse, Netbeans, JetBrains szoftvercsalád">Fejlesztői eszközök</abbr></label>
-							<label class="checkbox span3"><input type="checkbox">Szemantikus web</label>
-							<label class="checkbox span3"><input type="checkbox"><abbr title="Pl. Drupal, Wordpress, Joomla, Liferay">Tartalomkezelő rendszerek</abbr></label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Webfejlesztés">Webfejlesztés</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Frontend programozás">Frontend programozás</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Backend programozás">Backend programozás</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Játékfejlesztés">Játékfejlesztés</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="JavaScript">JavaScript</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="JS dialektusok"><abbr title="Pl. CoffeeScript, Dart, TypeScript">JS dialektusok</abbr></label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="PHP">PHP</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Java">Java</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value=".NET">.NET (ASP / C#)</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Ruby">Ruby</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Python">Python</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="GWT">GWT</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Webdesign">Webdesign</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="UX">UX</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Usability">Usability</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Platformfüggetlen fejlesztés">Platformfüggetlen fejlesztés</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Natív mobil alkalmazások fejlesztése">Natív mobil alkalmazások fejlesztése</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Mobil webalkalmazások fejlesztése">Mobil webalkalmazások fejlesztése</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Mobil alkalmazás design irányelvek">Mobil alkalmazás design irányelvek</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="REST">REST</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Tesztvezérelt fejlesztés"><abbr title="Pl. TDD, BDD">Tesztvezérelt fejlesztés</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Felhasználói felület tesztelés">Felhasználói felület tesztelés</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="SQL">SQL</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="NoSQL"><abbr title="Pl. MongoDB, CouchBase, Jackrabbit">NoSQL adatbázisok</abbr></label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="PHP keretrendszerek"><abbr title="pl. Symfony, Yii, Kohana, CakePHP">PHP keretrendszerek</abbr></label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="JavaScript keretrendszerek<"><abbr title="pl. jQuery, Ext JS, Backbone, Kendo, three.js">JavaScript keretrendszerek</abbr></label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Java keretrendszerek">Java keretrendszerek</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Szerveroldali JavaScript">Szerveroldali JavaScript (Node.js)</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Verziókezelő rendszerek"><abbr title="Pl. Git, SVN, Mercurial, Bazaar">Verziókezelő rendszerek</abbr></label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Fejlesztői eszközök"><abbr title="Pl. Eclipse, Netbeans, JetBrains szoftvercsalád">Fejlesztői eszközök</abbr></label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="Szemantikus web">Szemantikus web</label>
+							<label class="checkbox span3"><input type="checkbox" name="subjects[]" value="CMS"><abbr title="Pl. Drupal, Wordpress, Joomla, Liferay">Tartalomkezelő rendszerek</abbr></label>
 						</div>
 
 						<label>Milyen egyéb témát javasolnál?</label>
-						<input class="input-xxlarge" type="text" placeholder="Pl. Minden álmom egy Delphi meetup!">
+						<input class="input-xxlarge" type="text" name="other_subject" placeholder="Pl. Minden álmom egy Delphi meetup!">
 
 						<legend class="inform_legend">Egyebek</legend>
 						<label>Hozzájárulnál anyagilag egy ilyen szakmai fórumhoz szervezéséhez (hely és technika bérlése, videófelvétel készítése)?</label>
-						<select class="input-xxlarge">
+						<select class="input-xxlarge" name="pay">
 							<option>Csak akkor jönnék el, ha nem kell fizetni</option>
 							<option>Talán 500 Ft-ot nélkülözhetnék havonta</option>
 							<option>Akár 1000 Ft-ot is megérne nekem</option>
 						</select>
 
 						<label>Írd ide, ha egyéb megjegyzésed van a számunkra!</label>
-						<textarea class="input-xxlarge"></textarea>
-
-
+						<textarea class="input-xxlarge" name="comment"></textarea>
 					</div>
 
 					<div class="span12 submitbar">
