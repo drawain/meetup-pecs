@@ -24,11 +24,8 @@
 			<div class="container">
 				<h1>Pécs Tech Meetup</h1>
 				<p>
-					<?/*Itt az idő, hogy végre Pécsen is kialakuljon egyfajta fejlesztői színtér, mert bár városunk bővelkedik a szakmabeliekben, még sincs olyan hely vagy esemény, ahol összegyűlhetnének,
-					tapasztalatot cserélhetnének a technológia, a programozás vagy éppen a design iránt érdeklődők. Ez az oldal azon célból jött létre, hogy felmérjük van-e igény egy havonta megrendezésre kerülő Meetupra.*/?>
-
-					Itt az idő, hogy végre Pécsen is kialakuljon egy olyan fejlesztői színtér, ahol az IT szakma, a design és a technológia iránt érdeklődők összegyűlhetnének és tapasztalatot cserélhetnének.
-					Ez az oldal azon célból jött létre, hogy felmérjük van-e igény egy havonta megrendezésre kerülő fejlesztői Meetupra.
+					Itt az idő, hogy végre Pécsen is kialakuljon egy olyan fejlesztői színtér, ahol az IT szakma, a design és a technológia iránt érdeklődők összegyűlhetnek és tapasztalatot cserélhetnek.
+					Ez az oldal azon célból jött létre, hogy felmérjük, van-e igény egy havonta megrendezésre kerülő fejlesztői Meetupra.
 				</p>
 				<p><a href="#application_form" class="btn btn-primary btn-large">Tovább az igényfelméréshez &raquo;</a></p>
 			</div>
@@ -49,15 +46,14 @@
 					</p>
                 </div>
                 <div class="span4">
-                    <aside><span class="iconic lightbulb"></span></aside>
+                    <aside><span class="iconic chat_alt_stroke"></span></aside>
 					<h2>Miért?</h2>
-                    <p>Hogy más programozók, designerek és IT szakemberek véleményét, ötleteit, módszereit halljad és, hogy te is tovább add tapasztalataidat!</p>
+                    <p>Hogy programozók, designerek és más IT szakemberek véleményét, ötleteit, módszereit halld és, hogy te is tovább add tapasztalataidat!</p>
                     <p class="btn_container"><a class="btn toggle_hide" href="#">Bővebben &raquo;</a></p>
 					<p class="hide smalltext">
-						Célunk egy – helyi szakemberekből és érdeklődőkből álló – szakmai közösség létrehozása, illetve egy havonta megrendezett esemény megszervezése, ahol e közösség tagjai találkozhatnak,
+						Célunk egy – helyi szakemberekből és érdeklődőkből álló – szakmai közösség létrehozása, illetve egy havonta megrendezett esemény megszervezése. Egy fórum, ahol a közösség tagjai találkozhatnak,
 						megvitathatják fejlesztői problémáikat, az azokra talált megoldásokat, bemutathatják egymásnak saját projektjeiket, érdekességeket oszthatnak meg.
-						Ha valaki hosszú távon az IT területén szeretne dolgozni, akkor megkerülhetetlen a folyamatos fejlődés, a tanulás – erre nem is lehetne jobb lehetőség a hasonló gondolkodásúakkal
-						való szakmai találkozásnál!
+						Ha valaki hosszú távon az IT területén szeretne dolgozni, akkor megkerülhetetlen a folyamatos fejlődés, a tanulás – erre nem is lehetne jobb lehetőség, mint egy asztalhoz ülni a szakmabeliekkel!
 					</p>
                </div>
                 <div class="span4">
@@ -94,9 +90,9 @@
 					<p class="hide author smalltext">
 						<img src="img/drawain_small.jpg" alt="Fincza András" />
 						<a href="https://twitter.com/andrewdrawain" target="_blank" class="tw"></a>
-						<a href="https://facebook.com/drawain" target="_blank" class="fb"></a>
+						<a href="http://www.linkedin.com/in/andrasfincza" target="_blank" class="ln"></a>
 						<strong>Drawain</strong> a <a href="http://weblapbolt.hu" target="_blank">Weblapbolt</a> vezető fejlesztője, immáron kilenc éve elkötelezett híve a webes technológiáknak. Munkája során elsősorban PHP és
-						JavaScript nyelveken írt egyedi tartalomkezelő rendszerek és webalkalmazások fejlesztésében vesz részt - amikor pedig teheti mobil alkalmazások programozásával foglalkozik.
+						JavaScript nyelveken írt egyedi tartalomkezelő rendszerek és webalkalmazások fejlesztésében vesz részt - amikor pedig teheti, mobil alkalmazások programozásával foglalkozik.
 					</p>
                </div>
             </div>
@@ -182,7 +178,7 @@
 							<option>Akár 1000 Ft-ot is megérne nekem</option>
 						</select>
 
-						<label>Írd ide, ha egyéb megjegyezni valód van a számunkra!</label>
+						<label>Írd ide, ha egyéb megjegyzésed van a számunkra!</label>
 						<textarea class="input-xxlarge"></textarea>
 
 
