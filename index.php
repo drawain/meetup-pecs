@@ -24,8 +24,11 @@
 			<div class="container">
 				<h1>Pécs Tech Meetup</h1>
 				<p>
-					Itt az idő, hogy végre Pécsen is új erőre kapjon a fejlesztői színtér, mert bár városunk bővelkedik a szakmabeliekben, még sincs olyan hely vagy esemény, ahol összegyűlhetnének,
-					tapasztalatot cserélhetnének a technológia, a programozás vagy éppen a design iránt érdeklődők. Ez az oldal azon célból jött létre, hogy felmérjük van-e igény egy havonta megrendezésre kerülő Meetupra.
+					<?/*Itt az idő, hogy végre Pécsen is kialakuljon egyfajta fejlesztői színtér, mert bár városunk bővelkedik a szakmabeliekben, még sincs olyan hely vagy esemény, ahol összegyűlhetnének,
+					tapasztalatot cserélhetnének a technológia, a programozás vagy éppen a design iránt érdeklődők. Ez az oldal azon célból jött létre, hogy felmérjük van-e igény egy havonta megrendezésre kerülő Meetupra.*/?>
+
+					Itt az idő, hogy végre Pécsen is kialakuljon egy olyan fejlesztői színtér, ahol az IT szakma, a design és a technológia iránt érdeklődők összegyűlhetnének és tapasztalatot cserélhetnének.
+					Ez az oldal azon célból jött létre, hogy felmérjük van-e igény egy havonta megrendezésre kerülő fejlesztői Meetupra.
 				</p>
 				<p><a href="#application_form" class="btn btn-primary btn-large">Tovább az igényfelméréshez &raquo;</a></p>
 			</div>
@@ -80,7 +83,7 @@
                 <div class="span8">
                     <h2>Segíts</h2>
                     <p>
-						Szívesen látjuk azok jelentkezését, akik előadást tartanának vagy segítenének a Meetup megszervezésében bármilyen módon, pl. technikai eszközök biztosításával vagy helyszín felajánlással.
+						Szívesen látjuk azok jelentkezését, akik előadást tartanának vagy bármilyen módon segítenének a Meetup megszervezésében, így például technikai eszközök biztosításával vagy helyszín felajánlással.
 						Cégek jelentkezését sem zárjuk ki, ha a segítség nem reklámozás céljából történik. Bármilyen hozzájárulást az <a href="mailto:andras.fincza@weblapbolt.hu">andras.fincza@weblapbolt.hu</a> címen várjuk.
 					</p>
                 </div>
