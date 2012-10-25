@@ -9,17 +9,17 @@ Bár ez egyelőre csak felmérés, azt már előre leszögezhetjük, hogy a Meet
 Hogy programozók, designerek és más IT szakemberek véleményét, ötleteit, módszereit halld és, hogy te is tovább add tapasztalataidat!
 Célunk egy – helyi szakemberekből és érdeklődőkből álló – szakmai közösség létrehozása, illetve egy havonta megrendezett esemény megszervezése. Egy fórum, ahol a közösség tagjai találkozhatnak, megvitathatják fejlesztői problémáikat, az azokra talált megoldásokat, bemutathatják egymásnak saját projektjeiket, érdekességeket oszthatnak meg. Ha valaki hosszú távon az IT területén szeretne dolgozni, akkor megkerülhetetlen a folyamatos fejlődés, a tanulás – erre nem is lehetne jobb lehetőség, mint egy asztalhoz ülni a szakmabeliekkel!
 
-###Hogyan?
+##Hogyan?
 Ha te is úgy gondolod, hogy az önképzés hosszú távon elengedhetetlen a szakmádban, töltsd ki a lenti űrlapot, ezzel jelezve részvételi szándékod!
 Amennyiben 25-30 komolyabb jelentkező összegyűlt, akkor úgy tekintjük, hogy szükség van egy hasonló technikai fórumra és folytatjuk a szervezést, illetve kijelöljük az esemény fontosabb témaköreit (pl. design, web, frontend vagy backend programozás).
 A Meetupok szokásos menetrendjét követve egy meghatározott időpontban (valószínűleg hétköznap a késő délutáni órákban) három-négy egymást követő, 20-30 perces előadást tartanánk. Előadónak bárki jelentkezhet, csupán olyan témát kell választania, ami belefér a Meetup választott témaköreibe. Az előadásokat követően egy közeli és szimpatikus vendéglátóipari egységbe, közös sörözésre invitáljuk a résztvevőket!
 
-###Segíts
+##Segíts
 Szívesen látjuk azok jelentkezését, akik előadást tartanának vagy bármilyen módon segítenének a Meetup megszervezésében, így például technikai eszközök biztosításával vagy helyszín felajánlással. Cégek jelentkezését sem zárjuk ki, ha a segítség nem reklámozás céljából történik. Bármilyen hozzájárulást az <andras.fincza@weblapbolt.hu> címen várjuk.
 
-###Szervezés
+##Szervezés
 Az esemény egyelőre a szervezés kezdeti szakaszában van, előkészítését **Fincza András** vállalta magára.
 **Drawain** a <http://weblapbolt.hu> vezető fejlesztője, immáron kilenc éve elkötelezett híve a webes technológiáknak. Munkája során elsősorban PHP és JavaScript nyelveken írt egyedi tartalomkezelő rendszerek és webalkalmazások fejlesztésében vesz részt - amikor pedig teheti, mobil alkalmazások programozásával foglalkozik.
 
-###Kapcsolat
+##Kapcsolat
 Fincza András / <andras.fincza@weblapbolt.hu>
