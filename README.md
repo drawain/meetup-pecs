@@ -21,5 +21,10 @@ Szívesen látjuk azok jelentkezését, akik előadást tartanának vagy bármil
 Az esemény egyelőre a szervezés kezdeti szakaszában van, előkészítését **Fincza András** vállalta magára.
 **Drawain** a <http://weblapbolt.hu> vezető fejlesztője, immáron kilenc éve elkötelezett híve a webes technológiáknak. Munkája során elsősorban PHP és JavaScript nyelveken írt egyedi tartalomkezelő rendszerek és webalkalmazások fejlesztésében vesz részt - amikor pedig teheti, mobil alkalmazások programozásával foglalkozik.
 
+##Felhívás
+"Sziasztok,
+Itt az idő, hogy pécsen is legyen egy olyan fórum, ahol programozók, designerek vagy más szakmabeliek cserélhetnének tapasztalatot, oszthatnák meg gondolataikat és beszélhetnének házi projektjeikről. Ha érdekel az alkalmazásfejlesztés, a mobiltechnológia vagy éppen a design és fontosnak tartod az önképzést, akkor neked is köztünk a helyed! Jelentkezz Te is, és ha úgy látjuk, hogy van igény egy pécsi Meetupra, akkor megszervezzük.
+http://drawain.hu/meetup-pecs"
+
 ##Kapcsolat
 Fincza András / <andras.fincza@weblapbolt.hu>
